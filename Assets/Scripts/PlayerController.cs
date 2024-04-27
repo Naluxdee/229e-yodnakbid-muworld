@@ -26,4 +26,5 @@ public class PlayerController : MonoBehaviour
     {
         rb2D.AddForce(move * speed * Time.deltaTime);
     }
+
 }
